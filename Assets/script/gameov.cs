@@ -29,6 +29,7 @@ public class gameov : MonoBehaviour
             Text GameovreText = gameof.GetComponent<Text>();
             GameovreText.text = "Game Over";
             Time.timeScale = 0;
+            
         }
     }
 }
